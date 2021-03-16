@@ -19,17 +19,17 @@ body{
 }
 
 @media screen and (max-width: 576px) {
-    .body{
+    body{
         grid-template-rows: 50px auto 50px 50px 50px 50px;
         grid-template-columns: 1fr;
         grid-template-areas:
-        "a"
-        "b"
-        "c"
-        "d"
-        "e"
-        "."
-        "f";
+                "a"
+                "b"
+                "c"
+                "d"
+                "e"
+                "."
+                "f";
     }
 }
 #a{
