@@ -1,6 +1,6 @@
 /*Maak hier jouw CSS!*/
 
-body{
+body {
     display: grid;
     grid-template-rows: 50px 190px 100px auto 50px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -12,7 +12,7 @@ body{
         "f f f";
     grid-gap:16px;
 }
-.grid-item{
+.grid-item {
     padding:8px;
     color: white;
     background-color: lightpink;
@@ -32,22 +32,22 @@ body{
                 "f";
     }
 }
-#a{
+#a {
     grid-area: a;
 }
-#b{
+#b {
     grid-area: b;
 }
-#c{
+#c {
     grid-area: c;
 }
-#d{
+#d {
     grid-area: d;
 }
-#e{
+#e {
     grid-area: e;
 }
-#f{
+#f {
     grid-area: f;
 }
 
