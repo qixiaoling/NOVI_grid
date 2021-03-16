@@ -1,1 +1,53 @@
 /*Maak hier jouw CSS!*/
+
+body{
+    display: grid;
+    grid-template-rows: 50px 190px 100px auto 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "a c c"
+        "b c c"
+        "b e d"
+        "b e ."
+        "f f f";
+    grid-gap:16px;
+}
+.grid-item{
+    padding:8px;
+    color: white;
+    background-color: lightpink;
+}
+
+@media screen and (max-width: 576px) {
+    .body{
+        grid-template-rows: 50px auto 50px 50px 50px 50px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "a"
+        "b"
+        "c"
+        "d"
+        "e"
+        "."
+        "f";
+    }
+}
+#a{
+    grid-area: a;
+}
+#b{
+    grid-area: b;
+}
+#c{
+    grid-area: c;
+}
+#d{
+    grid-area: d;
+}
+#e{
+    grid-area: e;
+}
+#f{
+    grid-area: f;
+}
+
